@@ -11,11 +11,11 @@
    ```
 3. **Активируйте виртуальное окружение**
    В зависимости от вашей операционной системы, используйте одну из следующих команд:
-   * Для Windows:
+   - Для Windows:
     ```bash
     venv/scripts/activate
     ```
-   * Для macOS/Linux:
+   - Для macOS/Linux:
     ```bash
    source venv/bin/activate
     ```
