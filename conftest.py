@@ -7,7 +7,7 @@ from selenium import webdriver
 @pytest.fixture()
 def driver():
     service = Service(
-        executable_path="C:\\Users\\Kirill\\.vscode\\ProjectTemplates\\QA_TZ_1\\chromedriver.exe"
+        executable_path="chromedriver.exe"
     )
     driver = webdriver.Chrome(service=service, options=ChromeOptions())
     driver.implicitly_wait(10)
