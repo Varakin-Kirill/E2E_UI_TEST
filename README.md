@@ -26,5 +26,5 @@
 7. **Запустите тест**
    В корневой папке проекта выполните команду:
     ```bash
-   pytest tests/test.py
+   pytest tests/test.py -v
     ```
